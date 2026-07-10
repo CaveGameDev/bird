@@ -12,7 +12,7 @@
     return v === "true" || v === "1";
   }
 
-  var ZIP_NAME          = attr("data-zip", "https://github.com/CaveGameDev/bird/raw/refs/heads/master/icon.zip");
+  var ZIP_NAME          = attr("data-zip", "/icon.zip");
   var PREFIX            = attr("data-prefix", "atlas_batch_");
   var FRAMES_PER_ATLAS  = parseInt(attr("data-frames-per-atlas", "100"), 10);
   var GRID               = parseInt(attr("data-grid", "10"), 10);
